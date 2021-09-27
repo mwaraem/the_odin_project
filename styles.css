@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-logo,
+.header-links {
+  margin: 10px 30px 5px;
+}
+
+.header-logo {
+  font-family: Racing Sans One;
+  color: red;
+  font-size: 30px;
+}
+
+.navbar a {
+  color: #f9faf8;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.formula {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 15px;
+}
+
+.main-info h1 {
+  font-size: 48px;
+  margin: 10px;
+}
+
+.main-info p {
+  margin: 10px;
+}
+
+.main-info button {
+  font-family: Racing Sans One;
+  color: white;
+  font-size: larger;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: inset 0 0 0 0 #d1ca42;
+  transition: ease-out 0.3s;
+  outline: none;
+  margin-left: 10px;
+}
+
+.main-info button:hover {
+  box-shadow: inset 200px 0 0 0 #fff200;
+  cursor: pointer;
+  color: #020;
+}
+
+.racing-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 50px;
+  align-items: center;
+}
+
+.header-tag {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.racing-info img {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.quote-container {
+  display: flex;
+  background-color: #e5e7eb;
+  margin: 0;
+  justify-content: center;
+  padding: 200px;
+  font-size: 36px;
+  font-family: Racing Sans One;
+}
+
+#quoter {
+  font-size: 18px;
+  padding: 10px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.last-container {
+  height: 40%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 100px;
+}
+
+.last-info {
+  background-color: #3882f6;
+  border-radius: 7px;
+  width: 60%;
+  height: 60%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sign-up-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sign-up {
+  font-family: Racing Sans One;
+  color: white;
+  font-size: larger;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: inset 0 0 0 0 #d1ca42;
+  transition: ease-out 0.3s;
+  outline: none;
+  margin-left: 10px;
+}
+
+.sign-up:hover {
+  box-shadow: inset 200px 0 0 0 #fff200;
+  cursor: pointer;
+  color: #020;
+}
+
+.footer {
+  position: relative;
+  background-color: #1f2937;
+  height: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+}
